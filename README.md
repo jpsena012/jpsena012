@@ -1,19 +1,18 @@
-<h1 align="center">Hey 👋, I'm Joao Sena</h1>
+<h1 align="center">Joao Sena</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full-stack+developer+building+AI-powered+products;Founder+of+Flux+%E2%80%94+AI+Student+Life+App;Software+Engineer+%40+UVU+e2i;Building+LLMs+from+scratch+in+PyTorch" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full-stack+developer+building+AI-powered+products;Founder+of+Flux+%E2%80%94+AI+Student+Life+App;Software+Engineer+%40+UVU+e2i;Building+LLMs+from+scratch+in+PyTorch" alt="Typing SVG" />
 </p>
 
 ---
 
 ## 🧑‍💻 About Me:
 
-I'm a Software Engineering student at Utah Valley University who builds full-stack apps with AI at the core. I don't just learn things in class — I ship them to real users.
+I'm a Software Engineering student at Utah Valley University who builds full-stack apps with AI that helps users find success every day.
 
-Right now I'm running two software engineering contracts through UVU's e2i program (one for a university college, one for an aviation company), building Flux (an AI scheduling app with real users and real metrics), and fine-tuning GPT-2 from scratch in PyTorch.
+Right now I'm running two software engineering contracts through UVU's e2i program (one for a university, one for an aviation company), building Flux (an AI scheduling app to help my beta users), and fine-tuning GPT-2 from scratch in PyTorch.
 
-I speak Portuguese, English, and Spanish. I placed Top 7 out of 50 teams at a hackathon. I taught Portuguese to 12+ people before I ever wrote production code. And I think the best debugging happens after midnight with good music on.
-
+I'm from Brazil, but I love all things to do with people & culture. I speak Portuguese, English, and Spanish. 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=jpsena012&label=Visitor%20count&color=0e75b6&style=flat" alt="visitor count" />
 </p>

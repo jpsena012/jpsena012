@@ -1,76 +1,96 @@
-# 👋 Hey, I'm Joao Sena
+<h1 align="center">Hey 👋, I'm Joao Sena</h1>
 
-🎓 Software Engineering student at Utah Valley University  
-📱 Full-stack + mobile developer  
-🤖 Building AI-powered tools that help students stay productive and balanced  
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full-stack+developer+building+AI-powered+products;Founder+of+Flux+%E2%80%94+AI+Student+Life+App;Software+Engineer+%40+UVU+e2i;Building+LLMs+from+scratch+in+PyTorch" alt="Typing SVG" />
+</p>
 
 ---
 
-## 🚀 What I'm Building
+## 🧑‍💻 About Me:
+
+I'm a Software Engineering student at Utah Valley University who builds full-stack apps with AI at the core. I don't just learn things in class — I ship them to real users.
+
+Right now I'm running two software engineering contracts through UVU's e2i program (one for a university college, one for an aviation company), building Flux (an AI scheduling app with real users and real metrics), and fine-tuning GPT-2 from scratch in PyTorch.
+
+I speak Portuguese, English, and Spanish. I placed Top 7 out of 50 teams at a hackathon. I taught Portuguese to 12+ people before I ever wrote production code. And I think the best debugging happens after midnight with good music on.
+
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=jpsena012&label=Visitor%20count&color=0e75b6&style=flat" alt="visitor count" />
+</p>
+
+---
+
+## 🔥 What I'm Building:
 
 ### 🧠 Flux — AI Student Life Balance App
-> Cross-platform AI productivity app helping students manage school + life
+> I got tired of juggling Canvas, Google Calendar, and my social life in separate tabs. So I built an app that does it for me.
 
-- 📅 1,700+ calendar events synced across beta users  
-- 🤖 68% acceptance rate on AI-generated study plans  
-- 💬 Conversational AI assistant powered by Google Gemini  
-- ⚡ Real-time study schedule optimization + conflict resolution  
+- 📅 **1,700+** calendar events tracked across beta users
+- ✅ **68%** acceptance rate on AI-generated study plans
+- 💬 Conversational AI assistant powered by Google Gemini
+- ⚡ Real-time backend on Supabase + PostgreSQL Edge Functions
 
-**Tech:** React, TypeScript, Flutter, Supabase, PostgreSQL, Gemini API, Vercel
+### 💼 Contract Engineering — UVU e2i Program
+> Two clients at once, no senior engineer, full ownership.
 
-👉 _Currently iterating based on user feedback and expanding beta_
+- 🏫 **College of Education** — Replaced a Streamlit app with a React/Tailwind web app for STER rubric evaluations. Wireframed in Figma, iterated with the client — now adopted department-wide.
+- ✈️ **Randon Aviation** — Building their mobile backend in React + Capacitor. Migrating databases, managing RLS policies, serving 400 users.
 
----
+### 🧪 LLM From Scratch & GPT-2 Fine-Tuning
+> Building a transformer from the ground up to understand what's actually happening under the hood.
 
-### 🧪 LLM From Scratch
-> Building a transformer-based language model from the ground up
-
-- Tokenization, embeddings, forward pass
-- Training small-scale models to understand LLM internals
-- Exploring training tradeoffs and performance
-
-**Tech:** Python, PyTorch
-
----
+- 🔬 Tokenization, embeddings, and forward-pass logic in PyTorch
+- 🎯 Fine-tuning GPT-2 for 7-class support ticket classification — full fine-tuning vs LoRA adapters
+- 🏅 **NVIDIA Certificate of Competency** — Building Agentic AI Applications with LLMs
 
 ### 📱 ParkShare
-> Mobile marketplace for renting and listing parking spots for college students
+> College parking is a nightmare. So I'm building a marketplace for it.
 
-- Built and shipped Flutter mobile app
-- Firebase Auth + Firestore backend
-- Secured development grant to continue scaling
-
-**Tech:** Flutter, Dart, Firebase
+- Flutter mobile app · Firebase Auth + Firestore · $500 development grant
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tech Stack:
 
-**Languages**  
-Python, Dart, Swift, TypeScript (learning)
-
-**Frameworks & Tools**  
-Flutter, React (learning), Firebase, Supabase, PostgreSQL, Git, Vercel
-
-**Focus Areas**  
-AI Applications • LLMs • Mobile Development • Full-Stack Systems • REST APIs
-
----
-
-## 📈 What I'm Focused On Right Now
-
-- Improving AI planning accuracy in Flux
-- Learning deeper React + TypeScript patterns
-- Building better backend systems with Supabase/PostgreSQL
-- Continuing to explore LLM internals
-
----
-
-## 📫 Let's Connect
-
-- 💼 [LinkedIn] (https://www.linkedin.com/in/jo%C3%A3o-sena-4b3588376/)
-- 📧 jpsena012@gmail.com
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+</p>
+<p align="left">
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
 
 ---
 
-⭐️ If you find my projects interesting, feel free to reach out or follow along!
+## 💡 Random Dev Quote:
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
+</p>
+
+---
+
+## 📫 Let's Connect:
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/joaodesena"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:jpsena012@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/jpsena012"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
+
+---
+
+⭐️ If you're working on something cool or hiring, I'd love to chat!

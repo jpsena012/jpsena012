@@ -1,7 +1,6 @@
 <h1 align="center">Joao Sena</h1>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full-stack+developer+building+AI-powered+products;Founder+of+Flux+%E2%80%94+AI+Student+Life+App;Software+Engineer+%40+UVU+e2i;Building+LLMs+from+scratch+in+PyTorch" alt="Typing SVG" />
+src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Building+AI-powered+products;Founder+of+Flux;Software+Engineer+%40+UVU+e2i;Fine-tuning+LLMs+in+PyTorch" alt="Typing SVG" />
 </p>
 
 ---

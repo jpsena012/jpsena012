@@ -19,9 +19,9 @@ I'm from Brazil, but I love all things to do with people & culture. I speak Port
 
 ---
 
-## 🔥 What I'm Building:
+##  What I'm Building:
 
-### 🧠 Flux — AI Student Life Balance App
+###  Flux — AI Student Life Balance App
 > I got tired of juggling Canvas, Google Calendar, and my social life in separate tabs. So I built an app that does it for me.
 
 - 📅 **1,700+** calendar events tracked across beta users

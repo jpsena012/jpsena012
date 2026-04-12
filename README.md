@@ -29,20 +29,20 @@ I'm from Brazil, but I love all things to do with people & culture. I speak Port
 - 💬 Conversational AI assistant powered by Google Gemini
 - ⚡ Real-time backend on Supabase + PostgreSQL Edge Functions
 
-### 💼 Contract Engineering — UVU e2i Program
+### Contract Engineering — UVU e2i Program
 > Two clients at once, no senior engineer, full ownership.
 
 - 🏫 **College of Education** — Replaced a Streamlit app with a React/Tailwind web app for STER rubric evaluations. Wireframed in Figma, iterated with the client — now adopted department-wide.
 - ✈️ **Randon Aviation** — Building their mobile backend in React + Capacitor. Migrating databases, managing RLS policies, serving 400 users.
 
-### 🧪 LLM From Scratch & GPT-2 Fine-Tuning
+###  LLM From Scratch & GPT-2 Fine-Tuning
 > Building a transformer from the ground up to understand what's actually happening under the hood.
 
 - 🔬 Tokenization, embeddings, and forward-pass logic in PyTorch
 - 🎯 Fine-tuning GPT-2 for 7-class support ticket classification — full fine-tuning vs LoRA adapters
 - 🏅 **NVIDIA Certificate of Competency** — Building Agentic AI Applications with LLMs
 
-### 📱 ParkShare
+###  ParkShare
 > College parking is a nightmare. So I'm building a marketplace for it.
 
 - Flutter mobile app · Firebase Auth + Firestore · $500 development grant

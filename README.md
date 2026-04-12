@@ -10,7 +10,7 @@
 
 I'm a Software Engineering student at Utah Valley University who builds full-stack apps with AI that helps users find success every day.
 
-Right now I'm running two software engineering contracts through UVU's e2i program (one for a university, one for an aviation company), building Flux (an AI scheduling app to help my beta users), and fine-tuning GPT-2 from scratch in PyTorch.
+Right now I'm running two software engineering contracts through UVU's e2i program (one for a university, one for an aviation company), I'm also building Flux (an AI scheduling app to help my beta users), and fine-tuning GPT-2 from scratch in PyTorch.
 
 I'm from Brazil, but I love all things to do with people & culture. I speak Portuguese, English, and Spanish. 
 <p align="left">

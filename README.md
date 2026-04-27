@@ -6,7 +6,7 @@
 
 ---
 
-## 🧑‍💻 About Me:
+## About Me:
 
 I'm a Software Engineering student at Utah Valley University who builds full-stack apps with AI that helps users find success every day.
 
@@ -74,7 +74,7 @@ I'm from Brazil, but I love all things to do with people & culture. I speak Port
 
 ---
 
-## 💡 Random Dev Quote:
+##  Random Dev Quote:
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />

@@ -92,4 +92,4 @@ I'm from Brazil, but I love all things to do with people & culture. I speak Port
 
 ---
 
-⭐️ If you're working on something cool or hiring, I'd love to chat!
+If you're working on something cool or hiring, I'd love to chat!

@@ -24,23 +24,23 @@ I'm from Brazil, but I love all things to do with people & culture. I speak Port
 ###  Flux — AI Student Life Balance App
 > I got tired of juggling Canvas, Google Calendar, and my social life in separate tabs. So I built an app that does it for me.
 
-- 📅 **1,700+** calendar events tracked across beta users
-- ✅ **68%** acceptance rate on AI-generated study plans
-- 💬 Conversational AI assistant powered by Google Gemini
-- ⚡ Real-time backend on Supabase + PostgreSQL Edge Functions
+- **1,700+** calendar events tracked across beta users
+- **68%** acceptance rate on AI-generated study plans
+- Conversational AI assistant powered by Google Gemini
+- Real-time backend on Supabase + PostgreSQL Edge Functions
 
 ### Contract Engineering — UVU e2i Program
 > Two clients at once, no senior engineer, full ownership.
 
-- 🏫 **College of Education** — Replaced a Streamlit app with a React/Tailwind web app for STER rubric evaluations. Wireframed in Figma, iterated with the client — now adopted department-wide.
-- ✈️ **Randon Aviation** — Building their mobile backend in React + Capacitor. Migrating databases, managing RLS policies, serving 400 users.
+- **College of Education** — Replaced a Streamlit app with a React/Tailwind web app for STER rubric evaluations. Wireframed in Figma, iterated with the client — now adopted department-wide.
+- **Randon Aviation** — Building their mobile backend in React + Capacitor. Migrating databases, managing RLS policies, serving 400 users.
 
 ###  LLM From Scratch & GPT-2 Fine-Tuning
 > Building a transformer from the ground up to understand what's actually happening under the hood.
 
-- 🔬 Tokenization, embeddings, and forward-pass logic in PyTorch
-- 🎯 Fine-tuning GPT-2 for 7-class support ticket classification — full fine-tuning vs LoRA adapters
-- 🏅 **NVIDIA Certificate of Competency** — Building Agentic AI Applications with LLMs
+- Tokenization, embeddings, and forward-pass logic in PyTorch
+- Fine-tuning GPT-2 for 7-class support ticket classification — full fine-tuning vs LoRA adapters
+- **NVIDIA Certificate of Competency** — Building Agentic AI Applications with LLMs
 
 ###  ParkShare
 > College parking is a nightmare. So I'm building a marketplace for it.

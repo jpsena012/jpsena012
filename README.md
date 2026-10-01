@@ -22,7 +22,7 @@ I'm from Brazil, but I love all things to do with people & culture. I speak Port
 
 ## What I'm Building:
 
-### Avilys Sleep — AI Voice Agent (DAVID AI)
+### AI | Voice Agent (DAVID AI)
 > A sleep clinic couldn't staff its phone line. Now an agent answers it.
 
 - **100%** of calls answered, **95%** resolved correctly
@@ -31,29 +31,21 @@ I'm from Brazil, but I love all things to do with people & culture. I speak Port
 - Outbound cron works a deep-freeze referral list on its own: **178 calls placed**, patient reached on **85%**, books and schedules its own callbacks
 - Identity verified before any PHI is spoken · ElevenLabs + FastAPI on Railway
 
-### Snoball — RAG Support Agent (DAVID AI)
+### RAG | Support Agent (DAVID AI)
 > Their support history was the knowledge base. It just wasn't searchable.
 
 - **2,627 threads** mined into **1,445 cited Q&A pairs** across **442 accounts**
 - Hybrid retrieval + rerank, grounded drafts with citations, human approves before anything sends
 - Client called the drafts accurate and the knowledge base golden
 
-### Snoball — Autonomous QA Agent (DAVID AI)
-> Reads a ticket, drives the app in a real browser, and escalates instead of guessing.
-
-- Verifies a ticket in **~90s for ~$0.03** — **919 recorded runs** against a **589-card board**
-- Claude on **Bedrock** + **AgentCore**, deployed to the client's own AWS via CDK
-- HMAC-verified webhook, deduped retries, SQS + DLQ, visibility timeout above the worker's so runs never overlap
-- Merge-blocking test suite grown **163 → 753**
-
-### RUSTY — Offline AI Repair Copilot 🏆
+### RUSTY | Offline AI Repair Copilot 🏆
 > **Top 5, On-Device AI** — Google Gemma JustBuild Hackathon
 
 - **Gemma E2B** running entirely on the phone, network disabled
 - Speech in, speech out — a mechanic never touches the screen
 - Photographs the engine bay and reports PASS / FAIL / UNKNOWN / BLOCKED, admitting what it physically can't see
 
-### Flux — AI Student Life Balance App
+### Flux | AI Student Life Balance App
 > I got tired of juggling Canvas, Google Calendar, and my social life in separate tabs. So I built an app that does it for me.
 
 - **1,700+** calendar events tracked across beta users
@@ -67,7 +59,7 @@ I'm from Brazil, but I love all things to do with people & culture. I speak Port
 - Tokenization, embeddings, and forward-pass logic in PyTorch
 - Fine-tuned GPT-2 for 7-class support ticket classification: **LoRA beat full fine-tuning, 100% vs 97.4% test accuracy, with 47x fewer trainable parameters**
 
-### Contract Engineering — UVU e2i Program *(Feb – July 2026)*
+### Contract Engineering | UVU e2i Program *(Feb – July 2026)*
 > Two clients at once, no senior engineer, full ownership.
 
 - **College of Education** — Replaced a Streamlit app with a React/Tailwind web app for STER rubric evaluations. Wireframed in Figma, iterated with the client — now adopted department-wide.

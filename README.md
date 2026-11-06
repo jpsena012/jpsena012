@@ -8,7 +8,11 @@
 
 ## About Me
 
-AI engineer at **DavidAI** and Software Engineering student at Utah Valley University. I build agents that talk to real customers, mostly voice and support. The part I care about most is making sure they are honest about what they actually did. I'm originally from Brazil and speak Portuguese, English and Spanish.
+Hi, I'm Joao. I'm an AI engineer at **DavidAI** and a Software Engineering student at Utah Valley University.
+
+Most of my work is building AI agents that help real people, like patients calling their clinic or support teams answering customers. I care a lot about agents being honest about what they did, and I love the moment a tool quietly saves someone an afternoon.
+
+I grew up between Brazil and the US, and I speak Portuguese, English and Spanish.
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=jpsena012&label=Visitor%20count&color=0e75b6&style=flat" alt="visitor count" />
@@ -19,25 +23,37 @@ AI engineer at **DavidAI** and Software Engineering student at Utah Valley Unive
 ## What I'm Building
 
 ### Voice Agent | DavidAI
-The clinic couldn't keep its phone line staffed, and I took over the agent as its main owner. Most failures came from the model calling tools with bad inputs, so I moved the tool contracts server side, where they can be checked instead of trusted. I also made scheduling confirm a booking only after AdvancedMD accepts it, because telling a patient they're booked when they aren't is worse than transferring the call. Tool errors dropped from **90% to 0%**, there have been **0 false confirmations in 798+ calls**, and **98% of 10,696 calls** resolve correctly.
+A sleep clinic wanted every patient call answered, even on its busiest days. I own the voice agent that picks up those calls.
+- Made sure it only confirms a booking once the clinic's system accepts it, so patients can trust what they hear: **0 false confirmations in 798+ calls**
+- **98% of 10,696 calls** handled correctly, giving the staff back about **390 hours**
 
 ### RAG Support Agent | DavidAI
-A client's answers were buried in 2,627 old support threads that nobody could search. I built a RAG agent that turns those threads into cited Q&A pairs. A person approves every draft, since one wrong answer sent to a customer costs more than a slow one. The result was **1,445 pairs across 442 accounts**, and the client called the knowledge base golden.
+A support team had years of helpful answers spread across old threads. I helped turn them into something they can search and reuse.
+- **2,627 threads** became **1,445 cited Q&A pairs** across **442 accounts**
+- A person reviews every draft before it reaches a customer, and the team called the result golden
 
 ### RUSTY | Offline AI Repair Copilot
-**Top 5, On-Device AI at the Google Gemma JustBuild Hackathon.** Repair work happens with dirty hands and often without signal. I built a voice-driven checklist that runs Gemma E2B fully offline and checks each step from a photo. A deterministic step machine makes the final call, because the model shouldn't be the one deciding a repair is done. It had **0 false passes on 12 labeled photos**.
+**Top 5, On-Device AI at the Google Gemma JustBuild Hackathon.** Repairs often happen with busy hands and no signal, so I built a copilot that works without either.
+- Runs Gemma E2B fully on the phone and talks you through each step by voice
+- Checks your work from a photo, with a simple rule system making the final call: **0 false passes on 12 test photos**
 
 ### Flux | AI Student Scheduling App
-I was juggling Canvas, Google Calendar and the rest of my life in separate tabs, so I built an app that turns them into a study plan. Plan generation took 150 seconds, which went past Supabase's gateway timeout, so I reworked it to finish in **under 35 seconds**. Then I opened the build to real students to see if they would actually follow the plans. It now has **6 beta users and 1,700+ events**, and **68% of plans were accepted**.
+I kept juggling Canvas, Google Calendar and life in separate tabs, so I built one place that plans the week for you.
+- **6 beta students**, **1,700+ events** and **68%** of study plans accepted
+- Sped up plan generation from 150 seconds to **under 35**
 
 ### LLM From Scratch & GPT-2 Fine-Tuning
-I built transformer components from scratch in PyTorch to understand what actually happens inside an LLM. Then I tested whether parameter-efficient tuning gives up accuracy on a small task. On 7-class support ticket classification, LoRA scored **100% against 97.4%** for full fine-tuning, with **47x fewer trainable parameters**.
+I wanted to understand how LLMs really work, so I built the pieces myself in PyTorch.
+- Compared LoRA with full fine-tuning on GPT-2: **100% vs. 97.4%** accuracy with **47x fewer trainable parameters**
 
 ### Client Contracts | UVU e2i *(Feb – July 2026)*
-I worked on two client projects at once without a senior engineer. UVU's College of Education was reviewing STER rubrics in a slow Streamlit prototype, so I rebuilt it in React and Tailwind, and the department now uses it. For Randon Aviation, I found that their app stored login tokens in localStorage, where any injected script could read them. I moved the tokens into memory on web and the Keychain on mobile, and added a regression test so the fix stays in place.
+Two client projects, each owned from first meeting to launch.
+- **College of Education:** built a faster React app for STER rubric reviews that the department now uses
+- **Randon Aviation:** added billing and directory features and made logins more secure on web and mobile
 
 ### ParkShare
-Parking near campus is hard to find, so I'm building a marketplace for it. ParkShare is a Flutter app on Firebase Auth and Firestore, funded by a **$500 development grant**.
+Finding parking near campus is tough, so I'm building a marketplace to make it easier.
+- Flutter app on Firebase, supported by a **$500 development grant**
 
 ---
 

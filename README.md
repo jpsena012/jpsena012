@@ -23,7 +23,7 @@ I grew up between Brazil and the US, and I speak Portuguese, English and Spanish
 ## What I'm Building
 
 ### Voice Agent | DavidAI
-A sleep clinic wanted every patient call answered, even on its busiest days. I own the voice agent that picks up those calls.
+A sleep clinic wanted every patient call answered, even on its busiest days. So, I built out the voice agent that handles hundreds of calls a day!
 - Made sure it only confirms a booking once the clinic's system accepts it, so patients can trust what they hear: **0 false confirmations in 798+ calls**
 - **98% of 10,696 calls** handled correctly, giving the staff back about **390 hours**
 
@@ -43,17 +43,13 @@ I kept juggling Canvas, Google Calendar and life in separate tabs, so I built on
 - Sped up plan generation from 150 seconds to **under 35**
 
 ### LLM From Scratch & GPT-2 Fine-Tuning
-I wanted to understand how LLMs really work, so I built the pieces myself in PyTorch.
+I wanted to understand how LLMs really work, so I tried building one in PyTorch!
 - Compared LoRA with full fine-tuning on GPT-2: **100% vs. 97.4%** accuracy with **47x fewer trainable parameters**
 
 ### Client Contracts | UVU e2i *(Feb – July 2026)*
 Two client projects, each owned from first meeting to launch.
 - **College of Education:** built a faster React app for STER rubric reviews that the department now uses
 - **Randon Aviation:** added billing and directory features and made logins more secure on web and mobile
-
-### ParkShare
-Finding parking near campus is tough, so I'm building a marketplace to make it easier.
-- Flutter app on Firebase, supported by a **$500 development grant**
 
 ---
 

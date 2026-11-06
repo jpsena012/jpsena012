@@ -6,13 +6,9 @@
 
 ---
 
-## About Me:
+## About Me
 
-I'm an AI Engineer at **DAVID AI**, where I build production AI agents for clinical and B2B SaaS clients — voice agents that answer real patient calls, RAG support agents, and an autonomous QA agent running in a client's own AWS.
-
-I'm also a Software Engineering student at Utah Valley University (B.S., expected Dec 2029), founder of **Flux**, and I build transformers from scratch in PyTorch for fun.
-
-I'm from Brazil, but I love all things to do with people & culture. I speak Portuguese, English, and Spanish.
+AI engineer at **DavidAI** and Software Engineering student at Utah Valley University. I build agents that talk to real customers, mostly voice and support. The part I care about most is making sure they are honest about what they actually did. I'm originally from Brazil and speak Portuguese, English and Spanish.
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=jpsena012&label=Visitor%20count&color=0e75b6&style=flat" alt="visitor count" />
@@ -20,66 +16,39 @@ I'm from Brazil, but I love all things to do with people & culture. I speak Port
 
 ---
 
-## What I'm Building:
+## What I'm Building
 
-### AI | Voice Agent (DAVID AI)
-> A sleep clinic couldn't staff its phone line. Now an agent answers it.
+### Voice Agent | DavidAI
+The clinic couldn't keep its phone line staffed, and I took over the agent as its main owner. Most failures came from the model calling tools with bad inputs, so I moved the tool contracts server side, where they can be checked instead of trusted. I also made scheduling confirm a booking only after AdvancedMD accepts it, because telling a patient they're booked when they aren't is worse than transferring the call. Tool errors dropped from **90% to 0%**, there have been **0 false confirmations in 798+ calls**, and **98% of 10,696 calls** resolve correctly.
 
-- **100%** of calls answered, **95%** resolved correctly
-- **234 calls/week** closed with no person involved — roughly **39 staff-hours** returned
-- **545** chart notes written that nobody had to type
-- Outbound cron works a deep-freeze referral list on its own: **178 calls placed**, patient reached on **85%**, books and schedules its own callbacks
-- Identity verified before any PHI is spoken · ElevenLabs + FastAPI on Railway
+### RAG Support Agent | DavidAI
+A client's answers were buried in 2,627 old support threads that nobody could search. I built a RAG agent that turns those threads into cited Q&A pairs. A person approves every draft, since one wrong answer sent to a customer costs more than a slow one. The result was **1,445 pairs across 442 accounts**, and the client called the knowledge base golden.
 
-### RAG | Support Agent (DAVID AI)
-> Their support history was the knowledge base. It just wasn't searchable.
+### RUSTY | Offline AI Repair Copilot
+**Top 5, On-Device AI at the Google Gemma JustBuild Hackathon.** Repair work happens with dirty hands and often without signal. I built a voice-driven checklist that runs Gemma E2B fully offline and checks each step from a photo. A deterministic step machine makes the final call, because the model shouldn't be the one deciding a repair is done. It had **0 false passes on 12 labeled photos**.
 
-- **2,627 threads** mined into **1,445 cited Q&A pairs** across **442 accounts**
-- Hybrid retrieval + rerank, grounded drafts with citations, human approves before anything sends
-- Client called the drafts accurate and the knowledge base golden
-
-### RUSTY | Offline AI Repair Copilot 🏆
-> **Top 5, On-Device AI** — Google Gemma JustBuild Hackathon
-
-- **Gemma E2B** running entirely on the phone, network disabled
-- Speech in, speech out — a mechanic never touches the screen
-- Photographs the engine bay and reports PASS / FAIL / UNKNOWN / BLOCKED, admitting what it physically can't see
-
-### Flux | AI Student Life Balance App
-> I got tired of juggling Canvas, Google Calendar, and my social life in separate tabs. So I built an app that does it for me.
-
-- **1,700+** calendar events tracked across beta users
-- **68%** acceptance rate on AI-generated study plans
-- Cut AI plan generation from **150s** (past Supabase's gateway timeout) to **under 35s**
-- Conversational AI assistant powered by Google Gemini · Supabase + PostgreSQL Edge Functions
+### Flux | AI Student Scheduling App
+I was juggling Canvas, Google Calendar and the rest of my life in separate tabs, so I built an app that turns them into a study plan. Plan generation took 150 seconds, which went past Supabase's gateway timeout, so I reworked it to finish in **under 35 seconds**. Then I opened the build to real students to see if they would actually follow the plans. It now has **6 beta users and 1,700+ events**, and **68% of plans were accepted**.
 
 ### LLM From Scratch & GPT-2 Fine-Tuning
-> Building a transformer from the ground up to understand what's actually happening under the hood.
+I built transformer components from scratch in PyTorch to understand what actually happens inside an LLM. Then I tested whether parameter-efficient tuning gives up accuracy on a small task. On 7-class support ticket classification, LoRA scored **100% against 97.4%** for full fine-tuning, with **47x fewer trainable parameters**.
 
-- Tokenization, embeddings, and forward-pass logic in PyTorch
-- Fine-tuned GPT-2 for 7-class support ticket classification: **LoRA beat full fine-tuning, 100% vs 97.4% test accuracy, with 47x fewer trainable parameters**
-
-### Contract Engineering | UVU e2i Program *(Feb – July 2026)*
-> Two clients at once, no senior engineer, full ownership.
-
-- **College of Education** — Replaced a Streamlit app with a React/Tailwind web app for STER rubric evaluations. Wireframed in Figma, iterated with the client — now adopted department-wide.
-- **Randon Aviation** — Shipped billing and directory features into their React/Ionic/Capacitor app with Zustand stores and skeleton states. Closed an XSS token-theft path by moving the JWT out of localStorage into memory on web and the Keychain on native, with a regression test.
+### Client Contracts | UVU e2i *(Feb – July 2026)*
+I worked on two client projects at once without a senior engineer. UVU's College of Education was reviewing STER rubrics in a slow Streamlit prototype, so I rebuilt it in React and Tailwind, and the department now uses it. For Randon Aviation, I found that their app stored login tokens in localStorage, where any injected script could read them. I moved the tokens into memory on web and the Keychain on mobile, and added a regression test so the fix stays in place.
 
 ### ParkShare
-> College parking is a nightmare. So I'm building a marketplace for it.
-
-- Flutter mobile app · Firebase Auth + Firestore · $500 development grant
+Parking near campus is hard to find, so I'm building a marketplace for it. ParkShare is a Flutter app on Firebase Auth and Firestore, funded by a **$500 development grant**.
 
 ---
 
-## 📜 Certifications:
+## Certifications
 
-- **Claude in Amazon Bedrock** — Anthropic (Aug 2026)
-- **Building Agentic AI Applications with LLMs** — NVIDIA (Mar 2026)
+- **Claude in Amazon Bedrock**, Anthropic (Aug 2026)
+- **Building Agentic AI Applications with LLMs**, NVIDIA (Mar 2026)
 
 ---
 
-## 🛠 Tech Stack:
+## Tech Stack
 
 **Languages**
 <p align="left">
@@ -133,7 +102,7 @@ I'm from Brazil, but I love all things to do with people & culture. I speak Port
 
 ---
 
-## Random Dev Quote:
+## Random Dev Quote
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
@@ -141,7 +110,7 @@ I'm from Brazil, but I love all things to do with people & culture. I speak Port
 
 ---
 
-## 📫 Let's Connect:
+## Let's Connect
 
 <p align="left">
   <a href="https://www.linkedin.com/in/joaodesena"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -151,4 +120,4 @@ I'm from Brazil, but I love all things to do with people & culture. I speak Port
 
 ---
 
-If you're working on something cool or hiring, I'd love to chat!
+If you're building something interesting or hiring, I'd love to chat.
